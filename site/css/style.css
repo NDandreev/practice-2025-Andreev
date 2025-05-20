@@ -1,0 +1,109 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Темный фон */
+    color: #ffffff; /* Светлый текст */
+}
+
+.logo {
+    display: block;
+    margin: 20px auto;
+    max-width: 200px;
+}
+
+nav {
+    background: #1c1c1c; /* Темно-серый фон навигации */
+    color: #ffffff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    background: #e8491d; /* Цвет при наведении */
+    border-radius: 5px;
+}
+
+/* Стили для секций */
+section {
+    background: #1e1e1e; /* Темный фон секций */
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+    max-width: 800px; /* Максимальная ширина */
+}
+
+h2 {
+    color: #e8491d; /* Цвет заголовков */
+}
+
+h3 {
+    color: #f39c12; /* Цвет подзаголовков */
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post h3 {
+    margin: 0;
+}
+
+/* Стили для списка ресурсов */
+#resources ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#resources li {
+    margin: 10px 0;
+}
+
+.resource-link {
+    color: #ffffff; /* Цвет ссылок */
+    text-decoration: none;
+}
+
+.resource-link:hover {
+    color: #e8491d; /* Цвет при наведении */
+}
+
+/* Подвал */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #1c1c1c; /* Темно-серый фон подвала */
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Стили для раздела "Создание парольного менеджера" */
+#password-manager {
+    background-color: #1e1e1e; /* Темный фон для выделения */
+    border: 1px solid #cce7f1; /* Граница */
+    border-radius: 10px; /* Закругленные углы */
+    padding: 20px; /* Отступы */
+    margin: 20px auto; /* Отступы сверху и снизу */
+    max-width: 800px; /* Максимальная ширина */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень */
+}
+
+#password-manager h2 {
+    color: #e8491d; /* Цвет заголовка */
+}
+
+#password-manager h3 {
+    color: #f39c12; /* Цвет подзаголовков */
+}
